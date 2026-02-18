@@ -1,404 +1,114 @@
-<div class="oo">
-    <!--<button class="menu-toggle s-pA-OhIC2akyr">☰ Menu</button>-->
-    <nav class="s-pA-OhIC2akyr">
-        <ul class="menu s-pA-OhIC2akyr">
-            <li class="menu-item s-pA-OhIC2akyr"><a href="#" class="s-pA-OhIC2akyr leading-none text-sm">Transparency</a>
-                <ul class="dropdown s-pA-OhIC2akyr">
-                    <li class="dropdown-item s-pA-OhIC2akyr"><a href="#" class="s-pA-OhIC2akyr">Fiscal
-                            Transparency</a>
-                        <ul class="sub-dropdown s-pA-OhIC2akyr">
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/budg_transp" class="s-pA-OhIC2akyr">Budget
-                                    Transparency</a></li>
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/FT-T-Index" class="s-pA-OhIC2akyr">Fiscal
-                                    Transparency (T-Index)</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown-item s-pA-OhIC2akyr"><a href="#" class="s-pA-OhIC2akyr">Administrative
-                            Transparency</a>
-                        <ul class="sub-dropdown s-pA-OhIC2akyr">
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/admin_transp"
-                                    class="s-pA-OhIC2akyr">Administrative Transparency</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown-item s-pA-OhIC2akyr"><a href="#" class="s-pA-OhIC2akyr">Judicial
-                            Transparency</a>
-                        <ul class="sub-dropdown s-pA-OhIC2akyr">
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/JT-T-Index" class="s-pA-OhIC2akyr">Judicial
-                                    Transparency (T-index)</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown-item s-pA-OhIC2akyr"><a href="#" class="s-pA-OhIC2akyr">Electoral
-                            Transparency</a>
-                        <ul class="sub-dropdown s-pA-OhIC2akyr">
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/DF-total" class="s-pA-OhIC2akyr">Total score
-                                    for de facto transparency</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown-item s-pA-OhIC2akyr"><a href="#" class="s-pA-OhIC2akyr">Political
-                            Transparency</a>
-                        <ul class="sub-dropdown s-pA-OhIC2akyr">
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/PT-T-Index" class="s-pA-OhIC2akyr">Political
-                                    Transparency (T-Index)</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown-item s-pA-OhIC2akyr"><a href="#" class="s-pA-OhIC2akyr">Government
-                            Transparency</a>
-                        <ul class="sub-dropdown s-pA-OhIC2akyr">
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/tindex" class="s-pA-OhIC2akyr">Transparency
-                                    Index (Total Score)</a></li>
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/tindex_100"
-                                    class="s-pA-OhIC2akyr">Transparency Index (%)</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li class="menu-item s-pA-OhIC2akyr"><a href="#" class="s-pA-OhIC2akyr leading-none text-sm">Corruption Measures</a>
-                <ul class="dropdown s-pA-OhIC2akyr">
-                    <li class="dropdown-item s-pA-OhIC2akyr"><a href="#" class="s-pA-OhIC2akyr">Corruption
-                            Perception</a>
-                        <ul class="sub-dropdown s-pA-OhIC2akyr">
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/CPI-score" class="s-pA-OhIC2akyr">Corruption
-                                    Perception Index - Score</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown-item s-pA-OhIC2akyr"><a href="#" class="s-pA-OhIC2akyr">Single
-                            bidding</a>
-                        <ul class="sub-dropdown s-pA-OhIC2akyr">
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/OT_singlebid" class="s-pA-OhIC2akyr">Bidder
-                                    number score</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown-item s-pA-OhIC2akyr"><a href="#" class="s-pA-OhIC2akyr">Single Market
-                            Performance and Competitiveness</a>
-                        <ul class="sub-dropdown s-pA-OhIC2akyr"></ul>
-                    </li>
-                    <li class="dropdown-item s-pA-OhIC2akyr"><a href="#" class="s-pA-OhIC2akyr">Public
-                            Integrity</a>
-                        <ul class="sub-dropdown s-pA-OhIC2akyr">
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/ipi" class="s-pA-OhIC2akyr">Index of
-                                    Public Integrity</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li class="menu-item s-pA-OhIC2akyr"><a href="#" class="s-pA-OhIC2akyr leading-tight text-sm">Freedom of Expression</a>
-                <ul class="dropdown s-pA-OhIC2akyr">
-                    <li class="dropdown-item s-pA-OhIC2akyr"><a href="#" class="text-sm s-pA-OhIC2akyr">Press
-                            Freedom</a>
-                        <ul class="sub-dropdown s-pA-OhIC2akyr">
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/PFI Score" class="s-pA-OhIC2akyr">Press
-                                    Freedom Index</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li class="menu-item s-pA-OhIC2akyr"><a href="#" class="s-pA-OhIC2akyr leading-none text-sm">Regulation</a>
-                <ul class="dropdown s-pA-OhIC2akyr">
-                    <li class="dropdown-item s-pA-OhIC2akyr"><a href="#" class="s-pA-OhIC2akyr">Public
-                            accountability</a>
-                        <ul class="sub-dropdown s-pA-OhIC2akyr">
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/DJ-total" class="s-pA-OhIC2akyr">Total score
-                                    for de jure transparency</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown-item s-pA-OhIC2akyr"><a href="#" class="s-pA-OhIC2akyr">Political
-                            Financing Regulation</a>
-                        <ul class="sub-dropdown s-pA-OhIC2akyr">
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/PF-Score" class="s-pA-OhIC2akyr">Political
-                                    Financing Score (EUROPAM</a></li>
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/PF-1" class="s-pA-OhIC2akyr">Bans and
-                                    limits on private income (EUROPAM)</a></li>
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/PF-2" class="s-pA-OhIC2akyr">Public
-                                    funding (EUROPAM)</a></li>
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/PF-3" class="s-pA-OhIC2akyr">Regulations on
-                                    spending (EUROPAM)</a></li>
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/PF-4" class="s-pA-OhIC2akyr">Reporting,
-                                    oversight and sanctions (EUROPAM)</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown-item s-pA-OhIC2akyr"><a href="#" class="s-pA-OhIC2akyr">Financial
-                            Disclosure Regulation</a>
-                        <ul class="sub-dropdown s-pA-OhIC2akyr">
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/FD-score" class="s-pA-OhIC2akyr">Financial
-                                    Disclosure Score (EUROPAM)</a></li>
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/FD-1" class="s-pA-OhIC2akyr">Financial
-                                    Disclosure for Head of State (EUROPAM)</a>
-                            </li>
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/FD-2" class="s-pA-OhIC2akyr">Financial
-                                    Disclosure for Ministers (EUROPAM)</a></li>
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/FD-3" class="s-pA-OhIC2akyr">Financial
-                                    Disclosure for Members of Parliament
-                                    (EUROPAM)</a></li>
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/FD-4" class="s-pA-OhIC2akyr">Financial
-                                    Disclosure for Civil servants (EUROPAM)</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown-item s-pA-OhIC2akyr"><a href="#" class="s-pA-OhIC2akyr">Conflict of
-                            Interest Regulation</a>
-                        <ul class="sub-dropdown s-pA-OhIC2akyr">
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/COI-Score" class="s-pA-OhIC2akyr">Conflict of
-                                    Interest Score (EUROPAM)</a></li>
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/COI-1" class="s-pA-OhIC2akyr">Restrictions
-                                    (EUROPAM)</a></li>
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/COI-2" class="s-pA-OhIC2akyr">Sanctions
-                                    (EUROPAM)</a></li>
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/COI-3" class="s-pA-OhIC2akyr">Monitoring and
-                                    Oversight (EUROPAM)</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown-item s-pA-OhIC2akyr"><a href="#" class="s-pA-OhIC2akyr text-sm">Freedom of
-                            Information Regulation</a>
-                        <ul class="sub-dropdown s-pA-OhIC2akyr">
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/FOI-Score" class="s-pA-OhIC2akyr">Freedom of
-                                    Information Score (EUROPAM)</a></li>
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/FOI-1" class="s-pA-OhIC2akyr">Scope
-                                    and coverage (EUROPAM)</a></li>
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/FOI-2" class="s-pA-OhIC2akyr">Information
-                                    access and release (EUROPAM)</a></li>
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/FOI-3" class="s-pA-OhIC2akyr">Exceptions and
-                                    Overrides (EUROPAM)</a></li>
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/FOI-4" class="s-pA-OhIC2akyr">Sanctions for
-                                    non-compliance (EUROPAM)</a></li>
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/FOI-5" class="s-pA-OhIC2akyr">Monitoring and
-                                    Oversight (EUROPAM)</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown-item s-pA-OhIC2akyr"><a href="#" class="s-pA-OhIC2akyr">Public
-                            Procurement Regulation</a>
-                        <ul class="sub-dropdown s-pA-OhIC2akyr">
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/PP-Score" class="s-pA-OhIC2akyr">Public
-                                    Procurement Score (EUROPAM)</a></li>
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/PP-1" class="s-pA-OhIC2akyr">Scope
-                                    and coverage (EUROPAM)</a></li>
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/PP-2" class="s-pA-OhIC2akyr">Information
-                                    availability (EUROPAM)</a></li>
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/PP-3" class="s-pA-OhIC2akyr">Evaluation
-                                    (EUROPAM)</a></li>
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/PP-4" class="s-pA-OhIC2akyr">Open
-                                    competition (EUROPAM)</a></li>
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/PP-5" class="s-pA-OhIC2akyr">Institutional
-                                    arrangements (EUROPAM)</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown-item s-pA-OhIC2akyr"><a href="#" class="s-pA-OhIC2akyr">Criminal Law</a>
-                        <ul class="sub-dropdown s-pA-OhIC2akyr"></ul>
-                    </li>
-                </ul>
-            </li>
-            <li class="menu-item s-pA-OhIC2akyr"><a href="#" class="s-pA-OhIC2akyr leading-none text-sm">Internet Empowerment</a>
-                <ul class="dropdown s-pA-OhIC2akyr">
-                    <li class="dropdown-item s-pA-OhIC2akyr"><a href="#" class="s-pA-OhIC2akyr">E-Services</a>
-                        <ul class="sub-dropdown s-pA-OhIC2akyr">
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/online_serv" class="s-pA-OhIC2akyr">Online
-                                    Services</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown-item s-pA-OhIC2akyr"><a href="#" class="s-pA-OhIC2akyr">Enlightened
-                            Citizens</a>
-                        <ul class="sub-dropdown s-pA-OhIC2akyr">
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/e_citizen"
-                                    class="s-pA-OhIC2akyr">E-Citizenship</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li class="menu-item s-pA-OhIC2akyr"><a href="#" class="s-pA-OhIC2akyr leading-none text-sm">Enforcement</a>
-                <ul class="dropdown s-pA-OhIC2akyr">
-                    <li class="dropdown-item s-pA-OhIC2akyr"><a href="#" class="s-pA-OhIC2akyr">Judicial
-                            Independence</a>
-                        <ul class="sub-dropdown s-pA-OhIC2akyr">
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/jud_ind" class="s-pA-OhIC2akyr">Judicial
-                                    Independence</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown-item s-pA-OhIC2akyr"><a href="#" class="s-pA-OhIC2akyr">International
-                            Enforcement</a>
-                        <ul class="sub-dropdown s-pA-OhIC2akyr">
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/CBCI" class="s-pA-OhIC2akyr">Cross-border
-                                    corruption cases initiated</a></li>
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/CBCC" class="s-pA-OhIC2akyr">Cross-border
-                                    corruption cases concluded</a></li>
-                            <li class="s-pA-OhIC2akyr"><a href="/indicator/ITLC" class="s-pA-OhIC2akyr">Convictions
-                                    against heads of governments</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown-item s-pA-OhIC2akyr"><a href="#" class="s-pA-OhIC2akyr">National
-                            Enforcement</a>
-                        <ul class="sub-dropdown s-pA-OhIC2akyr"></ul>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </nav><!--<ThemesNav>-->
-</div>
- 
+<nav class="relative s-SUiYZUE8D7MS snav">
+    
+    <div class="md:hidden flex items-center justify-between px-4 bg-slate-900 s-SUiYZUE8D7MS">
+        <button id="mobileToggle" class="p-2 text-white focus:outline-none focus:ring-2 focus:ring-white rounded s-SUiYZUE8D7MS" aria-label="Toggle navigation"><svg class="w-6 h-6 s-SUiYZUE8D7MS" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" class="s-SUiYZUE8D7MS"></path></svg></button> 
+        
+        <div class="flex items-center s-SUiYZUE8D7MS"><span class="text-white font-semibold  s-SUiYZUE8D7MS">Menu</span></div> 
+        <div class="w-10 s-SUiYZUE8D7MS"></div></div> 
+        <div class="themesWrapper hidden md:block min-w-full s-SUiYZUE8D7MS">
+            <ul class="hidden md:flex gap-1 s-SUiYZUE8D7MS">
+            <div class="Theme group relative s-SUiYZUE8D7MS"><button aria-haspopup="true" aria-controls="menu-transparency" class="outline-none focus:outline-none text-sm p-3 bg-slate-900 rounded-sm flex items-center min-w-40 hover:bg-slate-800 transition-colors s-SUiYZUE8D7MS"><span class="flex-1 s-SUiYZUE8D7MS">Transparency</span></button> 
+                <ul id="menu-transparency" class="bg-slate-800 border rounded-sm transform scale-0 group-hover:scale-100 absolute origin-top min-w-80 z-10 top-full left-0 s-SUiYZUE8D7MS"><li class="Component rounded-sm relative hover:bg-slate-700 s-SUiYZUE8D7MS"><button aria-haspopup="true" aria-controls="menu-component-FT" class="w-full px-3 py-1 text-left flex items-center outline-none focus:outline-none text-white hover:bg-slate-600 transition-colors s-SUiYZUE8D7MS"><span class="pr-1 flex-1 s-SUiYZUE8D7MS">Fiscal Transparency</span> <span class="text-xs s-SUiYZUE8D7MS">›</span></button> 
+                <ul id="menu-component-FT" class="component-submenu absolute top-0 left-full bg-purple-700 border rounded-sm min-w-64 w-80 z-20 s-SUiYZUE8D7MS"><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/budg_transp">Budget Transparency</a> </li><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/FT-T-Index">Fiscal Transparency (T-Index)</a> </li></ul> </li><li class="Component rounded-sm relative hover:bg-slate-700 s-SUiYZUE8D7MS"><button aria-haspopup="true" aria-controls="menu-component-AT" class="w-full px-3 py-1 text-left flex items-center outline-none focus:outline-none text-white hover:bg-slate-600 transition-colors s-SUiYZUE8D7MS"><span class="pr-1 flex-1 s-SUiYZUE8D7MS">Administrative Transparency</span> <span class="text-xs s-SUiYZUE8D7MS">›</span></button> 
+                <ul id="menu-component-AT" class="component-submenu absolute top-0 left-full bg-purple-700 border rounded-sm min-w-64 w-80 z-20 s-SUiYZUE8D7MS"><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/admin_transp">Administrative Transparency</a> </li></ul> </li><li class="Component rounded-sm relative hover:bg-slate-700 s-SUiYZUE8D7MS"><button aria-haspopup="true" aria-controls="menu-component-JT" class="w-full px-3 py-1 text-left flex items-center outline-none focus:outline-none text-white hover:bg-slate-600 transition-colors s-SUiYZUE8D7MS"><span class="pr-1 flex-1 s-SUiYZUE8D7MS">Judicial Transparency</span> <span class="text-xs s-SUiYZUE8D7MS">›</span></button> 
+                <ul id="menu-component-JT" class="component-submenu absolute top-0 left-full bg-purple-700 border rounded-sm min-w-64 w-80 z-20 s-SUiYZUE8D7MS"><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/JT-T-Index">Judicial Transparency (T-index)</a> </li></ul> </li><li class="Component rounded-sm relative hover:bg-slate-700 s-SUiYZUE8D7MS"><button aria-haspopup="true" aria-controls="menu-component-ET" class="w-full px-3 py-1 text-left flex items-center outline-none focus:outline-none text-white hover:bg-slate-600 transition-colors s-SUiYZUE8D7MS"><span class="pr-1 flex-1 s-SUiYZUE8D7MS">Electoral Transparency</span> <span class="text-xs s-SUiYZUE8D7MS">›</span></button> 
+                <ul id="menu-component-ET" class="component-submenu absolute top-0 left-full bg-purple-700 border rounded-sm min-w-64 w-80 z-20 s-SUiYZUE8D7MS"><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/DF-total">Total Score for De Facto Transparency</a> </li></ul> </li><li class="Component rounded-sm relative hover:bg-slate-700 s-SUiYZUE8D7MS"><button aria-haspopup="true" aria-controls="menu-component-PT" class="w-full px-3 py-1 text-left flex items-center outline-none focus:outline-none text-white hover:bg-slate-600 transition-colors s-SUiYZUE8D7MS"><span class="pr-1 flex-1 s-SUiYZUE8D7MS">Political Transparency</span> <span class="text-xs s-SUiYZUE8D7MS">›</span></button> 
+                <ul id="menu-component-PT" class="component-submenu absolute top-0 left-full bg-purple-700 border rounded-sm min-w-64 w-80 z-20 s-SUiYZUE8D7MS"><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/PT-T-Index">Political Transparency (T-Index)</a> </li></ul> </li><li class="Component rounded-sm relative hover:bg-slate-700 s-SUiYZUE8D7MS"><button aria-haspopup="true" aria-controls="menu-component-GT" class="w-full px-3 py-1 text-left flex items-center outline-none focus:outline-none text-white hover:bg-slate-600 transition-colors s-SUiYZUE8D7MS"><span class="pr-1 flex-1 s-SUiYZUE8D7MS">Government Transparency</span> <span class="text-xs s-SUiYZUE8D7MS">›</span></button> 
+                <ul id="menu-component-GT" class="component-submenu absolute top-0 left-full bg-purple-700 border rounded-sm min-w-64 w-80 z-20 s-SUiYZUE8D7MS"><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/tindex">Transparency Index (Total Score)</a> </li><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/tindex_100">Transparency Index (%)</a> </li></ul> </li></ul> </div>
+        <div class="Theme group relative s-SUiYZUE8D7MS"><button aria-haspopup="true" aria-controls="menu-corruption-measures" class="outline-none focus:outline-none text-sm p-3 bg-slate-900 rounded-sm flex items-center min-w-40 hover:bg-slate-800 transition-colors s-SUiYZUE8D7MS"><span class="flex-1 s-SUiYZUE8D7MS">Corruption Measures</span></button> 
+            <ul id="menu-corruption-measures" class="bg-slate-800 border rounded-sm transform scale-0 group-hover:scale-100 absolute origin-top min-w-80 z-10 top-full left-0 s-SUiYZUE8D7MS"><li class="Component rounded-sm relative hover:bg-slate-700 s-SUiYZUE8D7MS"><button aria-haspopup="true" aria-controls="menu-component-CP" class="w-full px-3 py-1 text-left flex items-center outline-none focus:outline-none text-white hover:bg-slate-600 transition-colors s-SUiYZUE8D7MS"><span class="pr-1 flex-1 s-SUiYZUE8D7MS">Corruption Perception</span> <span class="text-xs s-SUiYZUE8D7MS">›</span></button> 
+            <ul id="menu-component-CP" class="component-submenu absolute top-0 left-full bg-purple-700 border rounded-sm min-w-64 w-80 z-20 s-SUiYZUE8D7MS"><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/CPI-score">Corruption Perception Index - Score</a> </li></ul> </li><li class="Component rounded-sm relative hover:bg-slate-700 s-SUiYZUE8D7MS"><button aria-haspopup="true" aria-controls="menu-component-SB" class="w-full px-3 py-1 text-left flex items-center outline-none focus:outline-none text-white hover:bg-slate-600 transition-colors s-SUiYZUE8D7MS"><span class="pr-1 flex-1 s-SUiYZUE8D7MS">Single bidding</span> <span class="text-xs s-SUiYZUE8D7MS">›</span></button> 
+            <ul id="menu-component-SB" class="component-submenu absolute top-0 left-full bg-purple-700 border rounded-sm min-w-64 w-80 z-20 s-SUiYZUE8D7MS"><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/OT_singlebid">Single-Bid Procurement Rate</a> </li><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/SB_SMSC">TED Single Bidding</a> </li></ul> </li><li class="Component rounded-sm relative hover:bg-slate-700 s-SUiYZUE8D7MS"><button aria-haspopup="true" aria-controls="menu-component-SMP" class="w-full px-3 py-1 text-left flex items-center outline-none focus:outline-none text-white hover:bg-slate-600 transition-colors s-SUiYZUE8D7MS"><span class="pr-1 flex-1 s-SUiYZUE8D7MS">Single Market Performance and Competitiveness</span> <span class="text-xs s-SUiYZUE8D7MS">›</span></button> 
+            <ul id="menu-component-SMP" class="component-submenu absolute top-0 left-full bg-purple-700 border rounded-sm min-w-64 w-80 z-20 s-SUiYZUE8D7MS"></ul> </li><li class="Component rounded-sm relative hover:bg-slate-700 s-SUiYZUE8D7MS"><button aria-haspopup="true" aria-controls="menu-component-PI" class="w-full px-3 py-1 text-left flex items-center outline-none focus:outline-none text-white hover:bg-slate-600 transition-colors s-SUiYZUE8D7MS"><span class="pr-1 flex-1 s-SUiYZUE8D7MS">Public Integrity</span> <span class="text-xs s-SUiYZUE8D7MS">›</span></button> 
+            <ul id="menu-component-PI" class="component-submenu absolute top-0 left-full bg-purple-700 border rounded-sm min-w-64 w-80 z-20 s-SUiYZUE8D7MS"><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/ipi">Index of Public Integrity</a> </li></ul> </li><li class="Component rounded-sm relative hover:bg-slate-700 s-SUiYZUE8D7MS"><button aria-haspopup="true" aria-controls="menu-component-WI" class="w-full px-3 py-1 text-left flex items-center outline-none focus:outline-none text-white hover:bg-slate-600 transition-colors s-SUiYZUE8D7MS"><span class="pr-1 flex-1 s-SUiYZUE8D7MS">Wealth Inequality</span> <span class="text-xs s-SUiYZUE8D7MS">›</span></button> 
+            <ul id="menu-component-WI" class="component-submenu absolute top-0 left-full bg-purple-700 border rounded-sm min-w-64 w-80 z-20 s-SUiYZUE8D7MS"><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/wi">Share of Wealth Held by Top 1%</a> </li></ul> </li></ul> </div>
+        <div class="Theme group relative s-SUiYZUE8D7MS"><button aria-haspopup="true" aria-controls="menu-freedom-of-expression" class="outline-none focus:outline-none text-sm p-3 bg-slate-900 rounded-sm flex items-center min-w-40 hover:bg-slate-800 transition-colors s-SUiYZUE8D7MS"><span class="flex-1 s-SUiYZUE8D7MS">Freedom of Expression</span></button> 
+            <ul id="menu-freedom-of-expression" class="bg-slate-800 border rounded-sm transform scale-0 group-hover:scale-100 absolute origin-top min-w-80 z-10 top-full left-0 s-SUiYZUE8D7MS"><li class="Component rounded-sm relative hover:bg-slate-700 s-SUiYZUE8D7MS"><button aria-haspopup="true" aria-controls="menu-component-PF" class="w-full px-3 py-1 text-left flex items-center outline-none focus:outline-none text-white hover:bg-slate-600 transition-colors s-SUiYZUE8D7MS"><span class="pr-1 flex-1 s-SUiYZUE8D7MS">Press Freedom</span> <span class="text-xs s-SUiYZUE8D7MS">›</span></button> 
+            <ul id="menu-component-PF" class="component-submenu absolute top-0 left-full bg-purple-700 border rounded-sm min-w-64 w-80 z-20 s-SUiYZUE8D7MS"><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/PFI Score">Press Freedom Index</a> </li></ul> </li></ul> </div>
+        <div class="Theme group relative s-SUiYZUE8D7MS"><button aria-haspopup="true" aria-controls="menu-regulation" class="outline-none focus:outline-none text-sm p-3 bg-slate-900 rounded-sm flex items-center min-w-40 hover:bg-slate-800 transition-colors s-SUiYZUE8D7MS"><span class="flex-1 s-SUiYZUE8D7MS">Regulation</span></button> 
+            <ul id="menu-regulation" class="bg-slate-800 border rounded-sm transform scale-0 group-hover:scale-100 absolute origin-top min-w-80 z-10 top-full left-0 s-SUiYZUE8D7MS"><li class="Component rounded-sm relative hover:bg-slate-700 s-SUiYZUE8D7MS"><button aria-haspopup="true" aria-controls="menu-component-PA" class="w-full px-3 py-1 text-left flex items-center outline-none focus:outline-none text-white hover:bg-slate-600 transition-colors s-SUiYZUE8D7MS"><span class="pr-1 flex-1 s-SUiYZUE8D7MS">Public accountability</span> <span class="text-xs s-SUiYZUE8D7MS">›</span></button> 
+            <ul id="menu-component-PA" class="component-submenu absolute top-0 left-full bg-purple-700 border rounded-sm min-w-64 w-80 z-20 s-SUiYZUE8D7MS"><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/DJ-total">Total Score for De Jure Transparency</a> </li><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/REG">Overall Regulation Comprehensiveness</a> </li></ul> </li><li class="Component rounded-sm relative hover:bg-slate-700 s-SUiYZUE8D7MS"><button aria-haspopup="true" aria-controls="menu-component-PFR" class="w-full px-3 py-1 text-left flex items-center outline-none focus:outline-none text-white hover:bg-slate-600 transition-colors s-SUiYZUE8D7MS"><span class="pr-1 flex-1 s-SUiYZUE8D7MS">Political Financing Regulation</span> <span class="text-xs s-SUiYZUE8D7MS">›</span></button> 
+            <ul id="menu-component-PFR" class="component-submenu absolute top-0 left-full bg-purple-700 border rounded-sm min-w-64 w-80 z-20 s-SUiYZUE8D7MS"><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/PF-Score">Political Financing Score</a> </li><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/PF-1">Bans and Limits on Private Income </a> </li><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/PF-2">Public Funding </a> </li><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/PF-3">Regulations on Spending </a> </li><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/PF-4">Reporting, Oversight and Sanctions </a> </li></ul> </li><li class="Component rounded-sm relative hover:bg-slate-700 s-SUiYZUE8D7MS"><button aria-haspopup="true" aria-controls="menu-component-FDR" class="w-full px-3 py-1 text-left flex items-center outline-none focus:outline-none text-white hover:bg-slate-600 transition-colors s-SUiYZUE8D7MS"><span class="pr-1 flex-1 s-SUiYZUE8D7MS">Financial Disclosure Regulation</span> <span class="text-xs s-SUiYZUE8D7MS">›</span></button> 
+            <ul id="menu-component-FDR" class="component-submenu absolute top-0 left-full bg-purple-700 border rounded-sm min-w-64 w-80 z-20 s-SUiYZUE8D7MS"><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/FD-score">Financial Disclosure Score </a> </li><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/FD-1">Financial Disclosure for Head of State </a> </li><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/FD-2">Financial Disclosure for Ministers </a> </li><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/FD-3">Financial Disclosure for Members of Parliament </a> </li><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/FD-4">Financial Disclosure for Civil servants </a> </li></ul> </li><li class="Component rounded-sm relative hover:bg-slate-700 s-SUiYZUE8D7MS"><button aria-haspopup="true" aria-controls="menu-component-CoIR" class="w-full px-3 py-1 text-left flex items-center outline-none focus:outline-none text-white hover:bg-slate-600 transition-colors s-SUiYZUE8D7MS"><span class="pr-1 flex-1 s-SUiYZUE8D7MS">Conflict of Interest Regulation</span> <span class="text-xs s-SUiYZUE8D7MS">›</span></button> 
+            <ul id="menu-component-CoIR" class="component-submenu absolute top-0 left-full bg-purple-700 border rounded-sm min-w-64 w-80 z-20 s-SUiYZUE8D7MS"><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/COI-Score">Conflict of Interest Score</a> </li><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/COI-1">Restrictions</a> </li><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/COI-2">Sanctions</a> </li><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/COI-3">Monitoring and Oversight</a> </li></ul> </li><li class="Component rounded-sm relative hover:bg-slate-700 s-SUiYZUE8D7MS"><button aria-haspopup="true" aria-controls="menu-component-FoIR" class="w-full px-3 py-1 text-left flex items-center outline-none focus:outline-none text-white hover:bg-slate-600 transition-colors s-SUiYZUE8D7MS"><span class="pr-1 flex-1 s-SUiYZUE8D7MS">Freedom of Information Regulation</span> <span class="text-xs s-SUiYZUE8D7MS">›</span></button> 
+            <ul id="menu-component-FoIR" class="component-submenu absolute top-0 left-full bg-purple-700 border rounded-sm min-w-64 w-80 z-20 s-SUiYZUE8D7MS"><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/FOI-Score">Freedom of Information Score </a> </li><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/FOI-1">Scope and Coverage</a> </li><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/FOI-2">Information Access and Release</a> </li><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/FOI-3">Exceptions and Overrides </a> </li><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/FOI-4">Sanctions for Non-Compliance </a> </li><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/FOI-5">Monitoring and Oversight </a> </li></ul> </li><li class="Component rounded-sm relative hover:bg-slate-700 s-SUiYZUE8D7MS"><button aria-haspopup="true" aria-controls="menu-component-PPR" class="w-full px-3 py-1 text-left flex items-center outline-none focus:outline-none text-white hover:bg-slate-600 transition-colors s-SUiYZUE8D7MS"><span class="pr-1 flex-1 s-SUiYZUE8D7MS">Public Procurement Regulation</span> <span class="text-xs s-SUiYZUE8D7MS">›</span></button> 
+            <ul id="menu-component-PPR" class="component-submenu absolute top-0 left-full bg-purple-700 border rounded-sm min-w-64 w-80 z-20 s-SUiYZUE8D7MS"><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/PP-Score">Public Procurement Score</a> </li><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/PP-1">Scope and Coverage </a> </li><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/PP-2">Information Availability </a> </li><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/PP-3">Evaluation </a> </li><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/PP-4">Open Competition </a> </li><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/PP-5">Institutional Arrangements </a> </li></ul> </li><li class="Component rounded-sm relative hover:bg-slate-700 s-SUiYZUE8D7MS"><button aria-haspopup="true" aria-controls="menu-component-CL" class="w-full px-3 py-1 text-left flex items-center outline-none focus:outline-none text-white hover:bg-slate-600 transition-colors s-SUiYZUE8D7MS"><span class="pr-1 flex-1 s-SUiYZUE8D7MS">Criminal Law</span> <span class="text-xs s-SUiYZUE8D7MS">›</span></button> 
+            <ul id="menu-component-CL" class="component-submenu absolute top-0 left-full bg-purple-700 border rounded-sm min-w-64 w-80 z-20 s-SUiYZUE8D7MS"></ul> </li></ul> </div>
+        <div class="Theme group relative s-SUiYZUE8D7MS"><button aria-haspopup="true" aria-controls="menu-internet-empowerment" class="outline-none focus:outline-none text-sm p-3 bg-slate-900 rounded-sm flex items-center min-w-40 hover:bg-slate-800 transition-colors s-SUiYZUE8D7MS"><span class="flex-1 s-SUiYZUE8D7MS">Internet Empowerment</span></button> 
+            <ul id="menu-internet-empowerment" class="bg-slate-800 border rounded-sm transform scale-0 group-hover:scale-100 absolute origin-top min-w-80 z-10 top-full left-0 s-SUiYZUE8D7MS"><li class="Component rounded-sm relative hover:bg-slate-700 s-SUiYZUE8D7MS"><button aria-haspopup="true" aria-controls="menu-component-E-S" class="w-full px-3 py-1 text-left flex items-center outline-none focus:outline-none text-white hover:bg-slate-600 transition-colors s-SUiYZUE8D7MS"><span class="pr-1 flex-1 s-SUiYZUE8D7MS">E-Services</span> <span class="text-xs s-SUiYZUE8D7MS">›</span></button> 
+            <ul id="menu-component-E-S" class="component-submenu absolute top-0 left-full bg-purple-700 border rounded-sm min-w-64 w-80 z-20 s-SUiYZUE8D7MS"><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/online_serv">Online Services</a> </li></ul> </li><li class="Component rounded-sm relative hover:bg-slate-700 s-SUiYZUE8D7MS"><button aria-haspopup="true" aria-controls="menu-component-E-C" class="w-full px-3 py-1 text-left flex items-center outline-none focus:outline-none text-white hover:bg-slate-600 transition-colors s-SUiYZUE8D7MS"><span class="pr-1 flex-1 s-SUiYZUE8D7MS">Enlightened Citizens</span> <span class="text-xs s-SUiYZUE8D7MS">›</span></button> 
+            <ul id="menu-component-E-C" class="component-submenu absolute top-0 left-full bg-purple-700 border rounded-sm min-w-64 w-80 z-20 s-SUiYZUE8D7MS"><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/e_citizen">E-Citizenship</a> </li></ul> </li></ul> </div>
+        <div class="Theme group relative s-SUiYZUE8D7MS"><button aria-haspopup="true" aria-controls="menu-enforcement" class="outline-none focus:outline-none text-sm p-3 bg-slate-900 rounded-sm flex items-center min-w-40 hover:bg-slate-800 transition-colors s-SUiYZUE8D7MS"><span class="flex-1 s-SUiYZUE8D7MS">Enforcement</span></button> 
+            <ul id="menu-enforcement" class="bg-slate-800 border rounded-sm transform scale-0 group-hover:scale-100 absolute origin-top min-w-80 z-10 top-full left-0 s-SUiYZUE8D7MS"><li class="Component rounded-sm relative hover:bg-slate-700 s-SUiYZUE8D7MS"><button aria-haspopup="true" aria-controls="menu-component-JI" class="w-full px-3 py-1 text-left flex items-center outline-none focus:outline-none text-white hover:bg-slate-600 transition-colors s-SUiYZUE8D7MS"><span class="pr-1 flex-1 s-SUiYZUE8D7MS">Judicial Independence</span> <span class="text-xs s-SUiYZUE8D7MS">›</span></button> 
+            <ul id="menu-component-JI" class="component-submenu absolute top-0 left-full bg-purple-700 border rounded-sm min-w-64 w-80 z-20 s-SUiYZUE8D7MS"><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/jud_ind">Judicial Independence</a> </li></ul> </li><li class="Component rounded-sm relative hover:bg-slate-700 s-SUiYZUE8D7MS"><button aria-haspopup="true" aria-controls="menu-component-IE" class="w-full px-3 py-1 text-left flex items-center outline-none focus:outline-none text-white hover:bg-slate-600 transition-colors s-SUiYZUE8D7MS"><span class="pr-1 flex-1 s-SUiYZUE8D7MS">International Enforcement</span> <span class="text-xs s-SUiYZUE8D7MS">›</span></button> 
+            <ul id="menu-component-IE" class="component-submenu absolute top-0 left-full bg-purple-700 border rounded-sm min-w-64 w-80 z-20 s-SUiYZUE8D7MS"><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/CBCI">Cross-Border Corruption Cases Initiated</a> </li><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/CBCC">Cross-Border Corruption Cases Concluded</a> </li><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/ITLC">Convictions Against Heads of Governments</a> </li><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/CC">Number of alleged corruption cases (2013-2022)</a> </li><li class="Indicator hover:bg-sky-900 s-SUiYZUE8D7MS"><a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors s-SUiYZUE8D7MS" href="/indicator/SC">Number of sanctioned companies with HQ in each country (2013-2022)</a> </li></ul> </li><li class="Component rounded-sm relative hover:bg-slate-700 s-SUiYZUE8D7MS"><button aria-haspopup="true" aria-controls="menu-component-NE" class="w-full px-3 py-1 text-left flex items-center outline-none focus:outline-none text-white hover:bg-slate-600 transition-colors s-SUiYZUE8D7MS"><span class="pr-1 flex-1 s-SUiYZUE8D7MS">National Enforcement</span> <span class="text-xs s-SUiYZUE8D7MS">›</span></button> 
+            <ul id="menu-component-NE" class="component-submenu absolute top-0 left-full bg-purple-700 border rounded-sm min-w-64 w-80 z-20 s-SUiYZUE8D7MS"></ul> </li></ul> </div></ul> 
+        <div class="md:hidden bg-slate-900 w-full min-h-screen s-SUiYZUE8D7MS">
+            <div class="Theme border-b border-slate-700 last:border-b-0 s-SUiYZUE8D7MS"><button class="w-full px-4 py-3 text-left flex items-center justify-between text-white hover:bg-slate-800 transition-colors s-SUiYZUE8D7MS" aria-expanded="false"><span class="s-SUiYZUE8D7MS">Transparency</span> <svg class="w-5 h-5 transform transition-transform  s-SUiYZUE8D7MS" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="s-SUiYZUE8D7MS"></path></svg></button>  </div>
+        <div class="Theme border-b border-slate-700 last:border-b-0 s-SUiYZUE8D7MS"><button class="w-full px-4 py-3 text-left flex items-center justify-between text-white hover:bg-slate-800 transition-colors s-SUiYZUE8D7MS" aria-expanded="false"><span class="s-SUiYZUE8D7MS">Corruption Measures</span> <svg class="w-5 h-5 transform transition-transform  s-SUiYZUE8D7MS" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="s-SUiYZUE8D7MS"></path></svg></button>  </div>
+        <div class="Theme border-b border-slate-700 last:border-b-0 s-SUiYZUE8D7MS"><button class="w-full px-4 py-3 text-left flex items-center justify-between text-white hover:bg-slate-800 transition-colors s-SUiYZUE8D7MS" aria-expanded="false"><span class="s-SUiYZUE8D7MS">Freedom of Expression</span> <svg class="w-5 h-5 transform transition-transform  s-SUiYZUE8D7MS" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="s-SUiYZUE8D7MS"></path></svg></button>  </div>
+        <div class="Theme border-b border-slate-700 last:border-b-0 s-SUiYZUE8D7MS"><button class="w-full px-4 py-3 text-left flex items-center justify-between text-white hover:bg-slate-800 transition-colors s-SUiYZUE8D7MS" aria-expanded="false"><span class="s-SUiYZUE8D7MS">Regulation</span> <svg class="w-5 h-5 transform transition-transform  s-SUiYZUE8D7MS" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="s-SUiYZUE8D7MS"></path></svg></button>  </div>
+        <div class="Theme border-b border-slate-700 last:border-b-0 s-SUiYZUE8D7MS"><button class="w-full px-4 py-3 text-left flex items-center justify-between text-white hover:bg-slate-800 transition-colors s-SUiYZUE8D7MS" aria-expanded="false"><span class="s-SUiYZUE8D7MS">Internet Empowerment</span> <svg class="w-5 h-5 transform transition-transform  s-SUiYZUE8D7MS" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="s-SUiYZUE8D7MS"></path></svg></button>  </div>
+        <div class="Theme border-b border-slate-700 last:border-b-0 s-SUiYZUE8D7MS"><button class="w-full px-4 py-3 text-left flex items-center justify-between text-white hover:bg-slate-800 transition-colors s-SUiYZUE8D7MS" aria-expanded="false"><span class="s-SUiYZUE8D7MS">Enforcement</span> <svg class="w-5 h-5 transform transition-transform  s-SUiYZUE8D7MS" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="s-SUiYZUE8D7MS"></path></svg></button>  </div></div>
+    </div>
+</nav>
+
+
+
 <style>
-    .menu-toggle {
+    /* Desktop hover effects */
+    @media (min-width: 768px) {
+        .group:hover .scale-0 {
+            transform: scale(1);
+        }
+        
+        /* Add hover bridge to prevent menu from closing */
+        .Component {
+            position: relative;
+        }
+        
+        .Component::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: -1px;
+            width: 1px;
+            height: 100%;
+            background: transparent;
+            z-index: 21;
+        }
+        
+        .Component:hover .component-submenu {
+            transform: translateX(0%) translateY(0px) scale(1);
+        }
+        
+        .component-submenu {
+            transform: translateX(100%) scale(0);
+            transition: transform 0.15s ease-in-out;
+        }
+        
+        /* Keep submenu open when hovering over it */
+        .component-submenu:hover {
+            transform: translateX(0%) translateY(0px) scale(1);
+        }
+    }
+    
+    /* Hide empty menus */
+    ul:empty,
+    li.Component button:has(+ :empty) {
         display: none;
     }
-   
-
-    @media screen and (min-width: 769px) {
-        nav {
-            display: flex; 
-            justify-content: center;
-        }
-
-        .menu {
-            list-style: none;
-            display: flex;
-            padding: 0;
-            margin: 0;
-        }
-        .menu a:has(+ ul:empty) {
-            display: none;
-        }
-
-        .menu-item {
-            position: relative;
-            margin-right: 20px;
-        }
-
-        .menu-item>a {
-            text-decoration: none;
-            padding: 10px;
-            display: block;
-        }
-
-        .dropdown,
-        .sub-dropdown {
-            display: none;
-            position: absolute;
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            background-color: #334;
-        }
-
-        .menu-item:hover>.dropdown,
-        .dropdown-item:hover>.sub-dropdown {
-            display: block;
-        }
-
-        .dropdown-item {
-            position: relative;
-            background-color: #445;
-        }
-
-        .dropdown-item>a {
-            text-decoration: none;
-            padding: 10px;
-            display: block;
-        }
-    }
-
-    ul.dropdown {
-        z-index: 3;
-    }
-
-    ul.dropdown ul {
-        z-index: 5;
-    }
-
-    ul.dropdown,
-    ul.dropdown ul {
-        z-index: 5;
-        width: auto;
-        max-width: 66em;
-        font-size: 15px;
-        box-shadow: 1px 2px 3px rgba(0, 0, 0, .2);
-    }
-
-    ul.sub-dropdown {
-        margin-left: -75%;
-        z-index: 8;
-        width: auto;
-        max-width: 60em;
-    }
-
-    ul.dropdown ul * {
-        width: auto;
-        max-width: 60em !important;
-    }
-
-    ul.dropdown li {
-        line-height: 1.2;
-        margin-bottom: .3ex;
-        padding: .5ex .75ex;
-    }
-
-    ul.dropdown li:not(:last-child) {
-     }
-
-    ul.dropdown ul li:hover {
-        background-color: #003;
-    }
-
-    @media screen and (max-width: 768px) {
-        .menu-toggle {
-            display: block;
-            margin: 10px;
-        }
-
-        nav {
-            display: block;
-        }
-
-        .menu {
-            display: none;
-            flex-direction: column;
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        .menu.open {
-            display: flex;
-        }
-
-        .menu-item {
-            margin-right: 0;
-        }
-
-        .menu-item>a,
-        .dropdown-item>a {
-            display: block;
-            padding: 10px;
-            text-decoration: none;
-            color: #000;
-        }
-
-        .dropdown,
-        .sub-dropdown {
-            display: none;
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        .menu-item.open>.dropdown,
-        .dropdown-item.open>.sub-dropdown {
-            display: block;
-        }
-
-        .menu-item>a::after,
-        .dropdown-item>a::after {
-            content: '+';
-            float: right;
-        }
-
-        .menu-item.open>a::after,
-        .dropdown-item.open>a::after {
-            content: '-';
-        }
-
-        .menu-item>a {
-            cursor: pointer;
-        }
-
-        .dropdown-item>a {
-            cursor: pointer;
+    
+    /* Mobile menu positioning */
+    @media (max-width: 767px) {
+        .themesWrapper {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 50;
+            padding-top: 4rem; /* Account for header height */
         }
     }
 </style>

@@ -3,29 +3,42 @@ title: Theme
 hide_title: true 
 ---
 
-# Theme: **{params.theme}**
-
+ 
 ```sql Components
 
-SELECT * FROM Components WHERE Theme = '${params.theme}'
+SELECT * FROM datahubGsheets.dh_Components WHERE Theme = '${params.theme}'
 
 ```
 
 ```sql Indicators
 
-SELECT * FROM Indicators 
+SELECT * FROM datahubGsheets.dh_Indicators 
 
 ```
+
+
+```sql CurrentTheme
+
+SELECT * FROM datahubGsheets.dh_Themes WHERE id = '${params.theme}'
+
+```
+
+# Theme: **{CurrentTheme[0].Name}**
 
 ## Components
 
 <div class="xlist">
  {#each Components as component}
  
-    <h3><a class="type-component markdown" href="/component/{component.id}">{component.Name}</a></h3>
-    <p>
+    <h3 class="mt-5 text-lg"><a class="type-component markdown" href="/component/{component.id}">{component.Name}</a></h3>
+    <p class="pb-5 border-b border-slate-500">
     {component.Description}
-    <br> Indicators:   <ChildIndicators ziIndicators = {Indicators} ziComponent = {component.id} /> 
+    <span class="block mt-2">
+       <b>Indicators</b>:
+       <span class="">
+          <ChildIndicators ziIndicators = {Indicators} ziComponent = {component.id} />
+       </span>
+    </span>
     </p>     
 
     

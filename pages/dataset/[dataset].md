@@ -5,11 +5,11 @@ hide_title: true
 
 
 ```sql datasetMeta
-SELECT * FROM Datasets WHERE id = '${params.dataset}'
+SELECT * FROM datahubGsheets.dh_Datasets WHERE id = '${params.dataset}'
 ```
 
 ```sql Indicators
-SELECT * FROM Indicators WHERE Dataset = '${params.dataset}'
+SELECT * FROM datahubGsheets.dh_Indicators WHERE Dataset = '${params.dataset}'
 
 ```
 

@@ -143,8 +143,9 @@ Pooled data to be displayed as additional resources
 
 Source: [data.integritywatch.eu/dashboard](https://data.integritywatch.eu/dashboard);
 Registration page: [data.integritywatch.eu/register](https://data.integritywatch.eu/register) 
-
  
+<Accordion>
+<AccordionItem title="&rarr; See the datasets">
 <table class="leading-tight">
 	<thead class="bg-slate-200	">
 	<tr class="">
@@ -160,7 +161,6 @@ Registration page: [data.integritywatch.eu/register](https://data.integritywatch
 		</tr>
 	</thead>
 	<tbody>
-		
 		<tr class=" border-b hover:bg-gray-50 font-medium">
 			<td class="px-2 py-1">
 			<b>European Parliament lobby meetings </b> <small>(csv)</small>
@@ -846,6 +846,8 @@ Registration page: [data.integritywatch.eu/register](https://data.integritywatch
 	</tbody>
 </table>
  
+</AccordionItem>
+</Accordion>
 
 
 <style>

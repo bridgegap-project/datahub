@@ -1,6 +1,6 @@
 ```sql indicators
 
-SELECT id, Name FROM Indicators ORDER BY Name;
+SELECT id, Name FROM datahubGsheets.dh_Indicators ORDER BY Name;
 
 ```
  
