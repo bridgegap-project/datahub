@@ -3,6 +3,7 @@
 import "../app.css";
 import { EvidenceDefaultLayout } from "@evidence-dev/core-components";
 import ThemesNav from "../components/ThemesNav.svelte";
+import Matomo from "../components/Matomo.svelte";
 // import ThemesNavStatic from "../components/ThemesNavStatic.svelte";
 export let data;
 </script>
@@ -16,7 +17,7 @@ export let data;
 		<div class="flex gap-x-4 items-center">
 		<a href="/" class="text-sm leading-none  block" style="width: 8em;"><img src="/assets/icon strong negative mono.svg" style="height: 2.75em;" alt="BridgeGap" class="float-start mr-2" /><div class="" style="font-size: 1.15em;"><small class="text-gray-300">BridgeGap</small> <br/> <b>Datahub</b></div></a>
 	</div>    
- 
+     
   <ThemesNav />   
 
 	<div class="flex gap-2 text-sm items-center ">  
@@ -28,7 +29,7 @@ export let data;
 </header>
 
 <div class="my-5">&nbsp;</div>
-
+<Matomo />
 <EvidenceDefaultLayout 
 	{data} title="BridgeGap Datahub" 
 	maxWidth=1480
@@ -43,5 +44,6 @@ export let data;
 	<slot slot="content" />
 	
 </EvidenceDefaultLayout>
+
 
  

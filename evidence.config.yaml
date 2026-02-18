@@ -1,6 +1,6 @@
 appearance:
-    default: light
-    switcher: true
+  default: system
+  switcher: true
 
 theme:
   colorPalettes:
@@ -57,8 +57,6 @@ theme:
     negative:
       light: "#dc2626"
       dark: "#f87171"
-
-
 
 plugins:
   components:

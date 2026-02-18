@@ -28,6 +28,7 @@
     function toggleComponent(componentId) {
         openComponent = openComponent === componentId ? null : componentId;
     }
+    
 </script>
   
 <nav class="relative">
@@ -64,18 +65,18 @@
             
             <!-- Desktop horizontal layout -->
             <ul class="hidden md:flex gap-1">
-                {#each loaded as theme}
+                {#each loaded as theme, themeIdx}
                 <div class="Theme group relative"> 
                     <button 
                         aria-haspopup="true" 
                         aria-controls="menu-{theme.id}"
-                        class="outline-none focus:outline-none text-sm p-3 bg-slate-900 rounded-sm flex items-center min-w-40 hover:bg-slate-800 transition-colors"
+                        class="outline-none focus:outline-none text-sm px-3 bg-slate-900 rounded-sm flex items-center min-w-40 hover:bg-slate-800 transition-colors"
                     > 
                         <span class="flex-1">{theme.Name}</span>
                     </button>
                     <ul 
                         id="menu-{theme.id}"
-                        class="bg-slate-800 border rounded-sm transform scale-0 group-hover:scale-100 absolute origin-top min-w-80 z-10 top-full left-0"
+                        class="bg-slate-800 border rounded-sm transform scale-0 group-hover:scale-100 absolute origin-top min-w-50 z-10 top-full left-0"
                     >
                         <QueryLoad data={qComponents} let:loaded>
                             {#each loaded as component}
@@ -87,16 +88,16 @@
                                     class="w-full px-3 py-1 text-left flex items-center outline-none focus:outline-none text-white hover:bg-slate-600 transition-colors"
                                 >
                                     <span class="pr-1 flex-1">{component.Name}</span>
-                                    <span class="text-xs">›</span>
+                                    <span class="text-xs">{themeIdx === 0 || themeIdx === 1 ? '›' : '‹'}</span>
                                 </button>
                                 <ul 
                                     id="menu-component-{component.id}"
-                                    class="component-submenu absolute top-0 left-full bg-purple-700 border rounded-sm min-w-64 w-80 z-20"
+                                    class="component-submenu absolute top-0 {themeIdx === 0 || themeIdx === 1 ? 'left-[calc(100%-2px)]' : 'right-[calc(100%-2px)]'} bg-purple-700 border rounded-sm min-w-64 w-60 max-w-md z-20"
                                 >
                                     <QueryLoad data={qIndicators} let:loaded>
                                     {#each loaded as indicator}
                                     {#if indicator.Component == component.id}
-                                    <li class="Indicator hover:bg-sky-900">
+                                    <li class="Indicator hover:bg-sky-900 border-b border-purple-400 last:border-b-0">
                                         <a class="px-3 py-1 block text-white hover:bg-sky-800 transition-colors" href="/indicator/{indicator.id}">{indicator.Name}</a>
                                     </li>
                                     {/if}            
@@ -202,7 +203,7 @@
             content: '';
             position: absolute;
             top: 0;
-            right: -1px;
+            left: -1px;
             width: 1px;
             height: 100%;
             background: transparent;
@@ -214,11 +215,21 @@
         }
         
         .component-submenu {
-            transform: translateX(100%) scale(0);
+            /* Default: open left */
+            transform: translateX(-100%) scale(0);
             transition: transform 0.15s ease-in-out;
         }
-        
-        /* Keep submenu open when hovering over it */
+        .component-submenu.left-full {
+            left: calc(100% - 2px);
+            right: auto;
+            transform: translateX(100%) scale(0);
+        }
+        .component-submenu.right-full {
+            left: auto;
+            right: calc(100% - 2px);
+            transform: translateX(-100%) scale(0);
+        }
+        .Component:hover .component-submenu,
         .component-submenu:hover {
             transform: translateX(0%) translateY(0px) scale(1);
         }
@@ -242,4 +253,5 @@
             padding-top: 4rem; /* Account for header height */
         }
     }
+    
 </style>

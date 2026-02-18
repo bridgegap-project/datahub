@@ -1,12 +1,16 @@
 .evidence/template
 .svelte-kit
 build
+*/_obsolete*
+_obsolete*
 node_modules
 .DS_Store
 static/data
 *.options.yaml
 .vscode/settings.json
 .env
+.claude/*
+CLAUDE.md
 .evidence/meta
 *_obsolete*
 *.code-workspace*

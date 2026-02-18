@@ -128,6 +128,64 @@ Datasets Included in the Datahub
                     <small>N/A</small>
                 </td>
             </tr>
+
+<!--  -->
+		    <tr class=" border-b hover:bg-gray-50">
+                <td class="px-2 py-1">
+                    Deliverable 6.2 Paper on the Effectiveness of AI tools to detect corruption
+                </td>
+                <td class="px-2 py-1">
+                    <a target="_blank" class="small markdown rounded-full bg-slate-200 hover:bg-slate-600" href="https://corruptiondata.eu/datasets/paper-effectiveness-ai-tools-detect-corruption">Download</a>
+                </td>
+                <td class="px-2 py-1">
+                    N/A
+                </td>
+            </tr>
+		    <tr class=" border-b hover:bg-gray-50">
+                <td class="px-2 py-1">
+                    Deliverable 6.5 Review of digital transformation opportunities and challenges for corruption
+                </td>
+                <td class="px-2 py-1">
+                    <a target="_blank" class="small markdown rounded-full bg-slate-200 hover:bg-slate-600" href="https://corruptiondata.eu/datasets/review-digital-transformation-opportunities-challenges-corruption">Download</a>
+                </td>
+                <td class="px-2 py-1">
+                    N/A
+                </td>
+            </tr>
+		    <tr class=" border-b hover:bg-gray-50">
+                <td class="px-2 py-1">
+                    Deliverable 8.1 Online Comparative Regulation Database and Map: EUCAL
+                </td>
+                <td class="px-2 py-1">
+                    <a target="_blank" class="small markdown rounded-full bg-slate-200 hover:bg-slate-600" href="https://corruptiondata.eu/datasets/online-comparative-regulation-database-map-eucal">Download</a>
+                </td>
+                <td class="px-2 py-1">
+                    N/A
+                </td>
+            </tr>
+		    <tr class=" border-b hover:bg-gray-50">
+                <td class="px-2 py-1">
+                    Deliverable 8.2 Comparative Report on Criminal Law Frameworks in Prosecuting Corruption and similar crimes in Europe
+                </td>
+                <td class="px-2 py-1">
+                    <a target="_blank" class="small markdown rounded-full bg-slate-200 hover:bg-slate-600" href="https://corruptiondata.eu/datasets/comparative-report-criminal-law-frameworks-prosecuting-corruption">Download</a>
+                </td>
+                <td class="px-2 py-1">
+                    N/A
+                </td>
+            </tr>
+		    <tr class=" border-b hover:bg-gray-50">
+                <td class="px-2 py-1">
+                    Milestone 6: Estimation of cross-border corruption gravity
+                </td>
+                <td class="px-2 py-1">
+                    <a target="_blank" class="small markdown rounded-full bg-slate-200 hover:bg-slate-600" href="https://corruptiondata.eu/datasets/estimation-cross-border-corruption-gravity">Download</a>
+                </td>
+                <td class="px-2 py-1">
+                    N/A
+                </td>
+            </tr>
+
         </tbody>
     </table>
  

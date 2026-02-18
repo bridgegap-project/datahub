@@ -1,5 +1,3 @@
-# BridgeGap DataHub
+[**BridgeGap** Project](https://corruptiondata.eu/) &rarr; [DataHub](https://datahub.corruptiondata.eu/)
 
-[datahub.corruptiondata.eu](https://datahub.corruptiondata.eu/) 
-
-built with [Evidence](https://evidencce.dev) 
+built with [Evidence](https://evidence.dev/)

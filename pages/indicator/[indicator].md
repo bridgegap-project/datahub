@@ -24,7 +24,12 @@ hide_title: true
 ```
 
 ```sql years
-SELECT  DISTINCT TRY_CAST(Year AS FLOAT) AS Year  from datahubGsheets.dh_Data WHERE Indicator_ID = '${params.indicator}' order by Year ASC
+-- SELECT  DISTINCT TRY_CAST(Year AS FLOAT) AS Year  
+SELECT  DISTINCT TRY_CAST(Year AS INTEGER) AS Year  
+-- SELECT  DISTINCT TRY_CAST(Year AS TEXT) AS Year  
+from datahubGsheets.dh_Data 
+WHERE Indicator_ID = '${params.indicator}' 
+order by Year DESC
 ```
 
 ```sql ziIndicators
@@ -150,13 +155,13 @@ FROM CombinedData
     data={years} 
     name=ziYears 
     value=Year 
-    order=Year 
+    order=Year desc
     title="Select Year" 
     class="font-semibold p-2"
 /> 
 
-<div class="bg-gray-100 border inline-block rounded-md p-1">
-  <DownloadData data={ziIndicators} text="Download Data" queryID=bridgegap-{params.indicator}-{inputs.ziYears.value} class="text-gray-950 font-semibold " />
+<div class="bg-gray-100 border inline-block rounded-md p-1 ">
+  <DownloadData data={ziIndicators} text="Download Data" queryID=bridgegap-{params.indicator}-{inputs.ziYears.value} class="font-semibold" />
 </div>
  
 <Tabs>
@@ -171,15 +176,20 @@ FROM CombinedData
           {/if}
         </div>
         {/if}
+        <div class="zemap">
         <AreaMap 
             data={ziIndicators} 
             areaCol="ISO3 Country"
             nameCol="Country Name"
             geoJsonUrl="/ne_110m_admin_0_countries.geojson"
             geoId=iso_a3
-            height=1280
+            base_style=blank
+            height=780
+            basemap={`https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png`}
             value=Value
+            opacity = 1
             legendType=scalar
+            startingZoom = 4
             legendPosition=topLeft
             borderWidth=2
             borderColor=#FFE       
@@ -190,7 +200,7 @@ FROM CombinedData
                 {id: 'ranking', fmt: 'num0', showColumnName: false, valueClass: ''}                
             ]}                                   
         />
-   
+   </div>
     </Tab>
     <Tab label="Bar">
          {#if indicatorMeta[0]["which is better"] || (indicatorMeta[0]["label MIN"] && indicatorMeta[0]["label MAX"])}
@@ -204,11 +214,11 @@ FROM CombinedData
           <div class="flex gap-4 justify-end mb-2">
             <div class="flex items-center gap-1">
               <span class="inline-block w-3 h-3 bg-[#2ecc71]"></span>
-              <span class="text-sm">EUMS Average</span>
+              <span class="text-sm">EU Member States (EUMS) Average</span>
             </div>
             <div class="flex items-center gap-1">
               <span class="inline-block w-3 h-3 bg-[#e74c3c]"></span>
-              <span class="text-sm">EUCC Average</span>
+              <span class="text-sm">Accession Candidates (EUCC) Average</span>
             </div>
             <div class="flex items-center gap-1">
               <span class="inline-block w-3 h-3 bg-[#f39c12]"></span>
@@ -224,6 +234,7 @@ FROM CombinedData
               labels=true
               title="{indicatorMeta[0].Name} for {inputs.ziYears.value}"
               seriesField="row_type"
+              downloadableData=false
               echartsOptions={{ 
                 autoColor: false,
                 colorBy: "data",
@@ -374,6 +385,8 @@ FROM CombinedData
 
 
 <style>
-  
- 
+ .zemap {width: 880px; }
+ .download-button {
+  border: 3px solid red; font-size: 4rem; transform: scale(4x);
+ }
   </style>
